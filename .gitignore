@@ -137,3 +137,15 @@ terraform/terraform
 terraform/terraform.tfstate.backup
 terraform/.terraform
 node_modules
+
+# Serverless CloudFormation templates
+.serverless/
+
+# Npm install
+package-lock.json
+
+# Dynamodb local
+.dynamodb/
+
+# vim swap files
+*.swp
